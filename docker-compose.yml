@@ -1,0 +1,277 @@
+version: '3.8'
+
+services:
+  # ============================================================================
+  # Database Layer
+  # ============================================================================
+
+  postgres:
+    image: timescale/timescaledb:latest-pg16
+    container_name: athena-postgres
+    environment:
+      POSTGRES_DB: athena
+      POSTGRES_USER: athena
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-athena_password}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U athena -d athena"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - athena-network
+
+  # ============================================================================
+  # Message Queue Layer
+  # ============================================================================
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: athena-zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    volumes:
+      - zookeeper_data:/var/lib/zookeeper/data
+      - zookeeper_logs:/var/lib/zookeeper/log
+    networks:
+      - athena-network
+
+  kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: athena-kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+      - "9093:9093"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'false'
+      KAFKA_LOG_RETENTION_HOURS: 168
+      KAFKA_LOG_RETENTION_BYTES: 1073741824
+    volumes:
+      - kafka_data:/var/lib/kafka/data
+    healthcheck:
+      test: ["CMD-SHELL", "kafka-broker-api-versions --bootstrap-server localhost:9092"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    networks:
+      - athena-network
+
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    container_name: athena-kafka-ui
+    depends_on:
+      - kafka
+    ports:
+      - "8080:8080"
+    environment:
+      KAFKA_CLUSTERS_0_NAME: athena
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
+      KAFKA_CLUSTERS_0_ZOOKEEPER: zookeeper:2181
+    networks:
+      - athena-network
+
+  # ============================================================================
+  # Vector Database (Weaviate)
+  # ============================================================================
+
+  weaviate:
+    image: semitechnologies/weaviate:1.23.0
+    container_name: athena-weaviate
+    ports:
+      - "8081:8080"
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      DEFAULT_VECTORIZER_MODULE: 'none'
+      ENABLE_MODULES: ''
+      CLUSTER_HOSTNAME: 'node1'
+    volumes:
+      - weaviate_data:/var/lib/weaviate
+    networks:
+      - athena-network
+
+  # ============================================================================
+  # Monitoring & Observability
+  # ============================================================================
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: athena-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    networks:
+      - athena-network
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: athena-grafana
+    depends_on:
+      - prometheus
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-admin}
+      GF_INSTALL_PLUGINS: ''
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - athena-network
+
+  # ============================================================================
+  # ML/Experiment Tracking
+  # ============================================================================
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:latest
+    container_name: athena-mlflow
+    ports:
+      - "5000:5000"
+    environment:
+      MLFLOW_BACKEND_STORE_URI: postgresql://athena:${POSTGRES_PASSWORD:-athena_password}@postgres:5432/athena
+      MLFLOW_ARTIFACT_ROOT: /mlflow/artifacts
+    volumes:
+      - mlflow_data:/mlflow
+    command: >
+      mlflow server
+      --backend-store-uri postgresql://athena:${POSTGRES_PASSWORD:-athena_password}@postgres:5432/athena
+      --default-artifact-root /mlflow/artifacts
+      --host 0.0.0.0
+      --port 5000
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - athena-network
+
+  # ============================================================================
+  # Redis (Caching)
+  # ============================================================================
+
+  redis:
+    image: redis:7-alpine
+    container_name: athena-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    networks:
+      - athena-network
+
+  # ============================================================================
+  # Application (Python)
+  # ============================================================================
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: athena-app
+    depends_on:
+      postgres:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      # Database
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: athena
+      POSTGRES_USER: athena
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-athena_password}
+
+      # Kafka
+      KAFKA_BOOTSTRAP_SERVERS: kafka:29092
+
+      # Redis
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+
+      # Weaviate
+      WEAVIATE_URL: http://weaviate:8080
+
+      # MLflow
+      MLFLOW_TRACKING_URI: http://mlflow:5000
+
+      # GitHub
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
+
+      # Application
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+    volumes:
+      - ./:/app
+      - app_logs:/app/logs
+    networks:
+      - athena-network
+    # Uncomment to keep container running for development
+    # command: tail -f /dev/null
+
+# ============================================================================
+# Volumes
+# ============================================================================
+
+volumes:
+  postgres_data:
+    driver: local
+  zookeeper_data:
+    driver: local
+  zookeeper_logs:
+    driver: local
+  kafka_data:
+    driver: local
+  weaviate_data:
+    driver: local
+  prometheus_data:
+    driver: local
+  grafana_data:
+    driver: local
+  mlflow_data:
+    driver: local
+  redis_data:
+    driver: local
+  app_logs:
+    driver: local
+
+# ============================================================================
+# Networks
+# ============================================================================
+
+networks:
+  athena-network:
+    driver: bridge
