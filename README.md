@@ -1,6 +1,6 @@
-# Athena - ML-Powered Code Intelligence System
+# Athena
 
-Production-grade machine learning system for code analysis, bug prediction, and intelligent code recommendations.
+An enterprise-grade machine learning platform for automated code intelligence, defect prediction, and data-driven development insights.
 
 ## 🚀 Quick Start
 
@@ -12,17 +12,17 @@ Production-grade machine learning system for code analysis, bug prediction, and 
 ### 2. Setup (5 minutes)
 
 ```bash
-# Navigate to project
-cd C:\Users\User\athena
+# Clone and navigate to project directory
+cd athena
 
-# Configure environment
+# Configure environment variables
+cp .env.example .env
 # Edit .env and add your GITHUB_TOKEN
-notepad .env
 
 # Start Docker infrastructure
 docker-compose up -d
 
-# Wait 30 seconds, then create Kafka topics
+# Initialize Kafka topics (wait 30 seconds for services to start)
 bash create_topics.sh
 ```
 
@@ -137,15 +137,15 @@ python integration_test.py
 # Expected output: ✅ ALL TESTS PASSED!
 ```
 
-## 📚 Next Steps
+## Development Roadmap
 
-1. **Week 2:** Build GitHub crawler (fetch real repository data)
-2. **Week 3:** Create Kafka consumer (process streaming data)
-3. **Week 4:** Feature engineering (extract code metrics)
-4. **Week 5:** ML models (bug prediction, churn analysis)
-5. **Week 6:** Deep learning (code embeddings, GNNs)
-6. **Week 7:** Reinforcement learning (recommendation engine)
-7. **Week 8:** Production deployment
+1. **Data Ingestion:** GitHub crawler for repository data collection
+2. **Stream Processing:** Kafka consumer for real-time data processing
+3. **Feature Engineering:** Code metrics and complexity analysis
+4. **Predictive Models:** Bug prediction and code churn analysis
+5. **Deep Learning:** Code embeddings and graph neural networks
+6. **Recommendation Engine:** Reinforcement learning-based suggestions
+7. **Production Deployment:** Scalable production infrastructure
 
 ## 🛠️ Development Workflow
 

@@ -1,0 +1,17 @@
+{
+  "timestamp": "20251208_084720",
+  "total_timesteps": 10000,
+  "training_stats": {
+    "total_timesteps": 10000,
+    "episodes": 0,
+    "mean_reward": 0.0,
+    "mean_accuracy": 0.0
+  },
+  "eval_metrics": {
+    "mean_reward": 163.0,
+    "std_reward": 0.0,
+    "mean_accuracy": 0.85,
+    "std_accuracy": 0.0
+  },
+  "model_path": "rl\\models\\ppo_bug_predictor_20251208_084720_final.zip"
+}

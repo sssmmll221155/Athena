@@ -1,0 +1,1077 @@
+id,sha,author_name,author_email,message,files_changed,insertions,deletions,is_merge,committed_at,repo_name,repo_language,repo_stars
+1,23cda745f16692551e32d264a3b6b9d8a0e34349,Aryan Kumar,ARYAN.KUMAR9791@gmail.com,fix: Replaced broken link with archived link (#12751),1,1,1,f,2025-10-22 16:58:05,EbookFoundation/free-programming-books,Python,374571
+2,8623273935737260dcb162ae55b50d2038e48c15,Akhil Devarasetty,35643940+DDH2004@users.noreply.github.com,Add 'Hands-On Programming with R' to the list (#12749),1,1,0,f,2025-10-22 15:50:20,EbookFoundation/free-programming-books,Python,374571
+3,9552095d5d9fcbc1dff7258d5e32b8020db1e645,Soniku Taiyō Kagami,sksoni1611@gmail.com,fix: add creator name to a perl course in free-courses-en.md (#12748),1,1,1,f,2025-10-22 15:47:59,EbookFoundation/free-programming-books,Python,374571
+4,57504efc1e7088675fe3f51c9c25a66ce4927b51,Logesh R,45895919+surlogu@users.noreply.github.com,feature/pt br hacktoberfest: add BigFrontEnd.dev and JSCodebox resources to competitive programming problem sets (#12721),1,2,0,f,2025-10-22 15:43:25,EbookFoundation/free-programming-books,Python,374571
+5,12cda4a8a4229883b78fba511c9e07d2a6ce19b8,Soniku Taiyō Kagami,sksoni1611@gmail.com,"feature: add CUDA courses in free-courses-en.md (#12701)
+
+* feature: add CUDA courses in free-courses-hi.md
+
+* fix: update creator name for one CUDA course",1,2,1,f,2025-10-22 15:41:18,EbookFoundation/free-programming-books,Python,374571
+6,41f189837ceba61a9afc4ae6cf4aaa54da4057e9,Wellington Magri,110054262+Tinhomagri@users.noreply.github.com,"Feature/pt br hacktoberfest (#12615)
+
+* feat(pt_BR): Add  cursos de Delphi, Elixir, Sass and Swift
+
+* fix(pt_BR): add course Lua
+
+* feat(pt_BR): Add  cursos de Delphi, Elixir, Sass, Lua and Linux
+
+* feat(pt_BR) add Linux
+
+* (pt_BR) add Linux
+
+* (pt_BR) add Sass, Rust and React Native
+
+* (pt_BR) add segurança da informação
+
+* feat/(pt_BR) add Angular,TypeScript and WordPress
+
+* feat/ add Markdown,Programação,Django,Flask
+
+* feat/add raspberry Pi,Sass,Swift and SEO
+
+* add Vue js, wordpress
+
+* Atualizar o free-courses-pt_BR.md
+
+* resolve error
+
+* add Typescrit, Swift and Rust",1,7,0,f,2025-10-22 15:33:18,EbookFoundation/free-programming-books,Python,374571
+7,7b9d7301cfd008f623a911d2abeae917052562a8,Godly K Mathews,97968185+godlykmathews@users.noreply.github.com,"Add Golang/Go programming resources in Malayalam (#12186)
+
+* Add Go programming resources in Malayalam
+
+Added resources for learning Go programming in Malayalam.
+
+* Update courses/free-courses-ml.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* Update courses/free-courses-ml.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* Update free-courses-ml.md
+
+* Remove Youtube Playlist Golang tutorials in Malayalam
+
+---------
+
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,6,0,f,2025-10-22 15:27:26,EbookFoundation/free-programming-books,Python,374571
+8,688d55e056ed6ca6b99bf01f833bebf79e89cc2f,Tubagus Maulana Aghni,58358913+maulanaaghnii@users.noreply.github.com,add flash course (#12736),1,1,0,f,2025-10-22 15:10:13,EbookFoundation/free-programming-books,Python,374571
+9,e07b66c001df442480c8342c65df1ef6a3e55606,Tubagus Maulana Aghni,58358913+maulanaaghnii@users.noreply.github.com,add belajar android untuk pemula (#12735),1,1,0,f,2025-10-22 15:09:38,EbookFoundation/free-programming-books,Python,374571
+10,b4a458083e7d2a2b16671eca77f35bce9c1c7b37,Tubagus Maulana Aghni,58358913+maulanaaghnii@users.noreply.github.com,add belajar menggunakan bootstrap (#12734),1,1,0,f,2025-10-22 15:08:53,EbookFoundation/free-programming-books,Python,374571
+11,3cc578a0adfb6ba54e02f260dcb45682d1ce63f9,Tubagus Maulana Aghni,58358913+maulanaaghnii@users.noreply.github.com,add belajar angular js (#12733),1,1,0,f,2025-10-22 15:06:24,EbookFoundation/free-programming-books,Python,374571
+12,34933973ba0e92a863adc51683312b25dc9002b6,Satyam Mishra,89126855+bedead@users.noreply.github.com,"add Generative AI for Beginners (Version 3) Python and TypeScript from Microsoft (#12690)
+
+* Add Generative AI for Beginners (.NET Edition) en version
+
+* feat: add Generative KI für Anfänger (.NET Edition) by Microsoft (German)
+
+* feat: add 初心者向け 生成 AI .NET コース by Microsoft (Japanese)
+
+* feat: add Générative AI pour Débutants .NET - Un Cours (French)
+
+* add Foundation Models & Generative AI (MIT OpenCourseWare)
+
+* remove trailing slash
+
+* Update courses/free-courses-en.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* update course alphabetical ordering
+
+* add Generative AI for Beginners (Version 3) Python and TypeScript
+
+Signed-off-by: Satyam Mishra <satyammishra9050@gmail.com>
+
+* Update courses/free-courses-en.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* fix typo
+
+Signed-off-by: Satyam Mishra <satyammishra9050@gmail.com>
+
+* listing alpha reordering
+
+Signed-off-by: Satyam Mishra <satyammishra9050@gmail.com>
+
+---------
+
+Signed-off-by: Satyam Mishra <satyammishra9050@gmail.com>
+Co-authored-by: Satyam Mishra <satyammishra9050@gmail.com>
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-22 14:56:21,EbookFoundation/free-programming-books,Python,374571
+13,e72544c3d9c55e657276af2edead19088b4e1bbb,itskaushik13,148837359+itskaushik13@users.noreply.github.com,"Add Modern Cryptography volumes 1 and 2 by Zhiyong Zheng (#12625)
+
+* Add Modern Cryptography volumes 1 and 2 by Zhiyong Zheng
+
+* Fix formatting and author name typo in cryptography books",1,2,0,f,2025-10-22 14:43:27,EbookFoundation/free-programming-books,Python,374571
+14,44d5cf20f6e910324b3cc53a95deec9c685822bf,sstegmanbsd,s-stegmans@bsd405.org,"Add Octave introduction resource link (#12718)
+
+* Add Octave introduction resource link
+
+* Fix link order for Octave Programming resource
+
+* Update books/free-programming-books-langs.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+---------
+
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-21 14:13:50,EbookFoundation/free-programming-books,Python,374571
+15,febd56ac2de511859e3cc6f8c831ec6f329e4bbb,noraegeorge,noraegeorge@outlook.com,"Update free-courses-ml.md (#12719)
+
+Adding free course on javascript in malayalam language that has 22 parts and provides full learning on how to program for beginners",1,1,0,f,2025-10-21 02:21:06,EbookFoundation/free-programming-books,Python,374571
+16,6ec699def1eca2ddd2f0fba03d87dd092dc4d4fa,Logesh R,45895919+surlogu@users.noreply.github.com," feature/pt br hacktoberfest: JS courses added (#12720)
+
+* feature: add additional JavaScript resources in free-courses-en.md
+
+* fix: update link format for JavaScript Tutorial in free-courses-en.md",1,2,0,f,2025-10-21 02:20:39,EbookFoundation/free-programming-books,Python,374571
+17,969e602d640937332358cf07e60fa161951b90a3,sstegmanbsd,s-stegmans@bsd405.org,"Add 'Programming Basics with C#' course link (#12668)
+
+* Add 'Programming Basics with C#' course link
+
+* Update courses/free-courses-en.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+---------
+
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-21 02:15:11,EbookFoundation/free-programming-books,Python,374571
+18,09b8f2f77e2c47ce0eb97c077cec329a01c40673,Md Ruman Islam,mail2ruman.i@gmail.com,"Add HTML & CSS in Bangla - Farmer Abdul Alim (GitHub, HTML) (#12704)
+
+* Add HTML & CSS in Bangla - Farmer Abdul Alim (GitHub, HTML)
+
+Added a new open-source Bangla Web Development resource:
+
+[এইচটিএমএল ও সিএসএস ইন বাংলায় (HTML & CSS in Bangla)](https://github.com/CodeJogot/html-css-course-in-bangla)
+- Author: Farmer Abdul Alim
+- Platform: GitHub (HTML)
+- License: CC BY-SA
+
+This is a free and open-source HTML & CSS tutorial series with 30+ chapters and 20 practical projects.
+Verified that the resource is public, accessible without login, and permanently hosted on GitHub.
+
+* Fix Markdown formatting and spacing for Web Development section
+
+- Ensured correct blank line spacing before and after headings
+- Removed extra asterisk before the Machine Learning header
+- Verified alphabetical order (JavaScript → Web Development → Machine Learning)
+- Confirmed consistent author and format syntax
+
+* Fix final spacing and formatting for Web Development section
+
+Fixed Markdown spacing and formatting to comply with fpb-lint rules. Added proper blank lines before/after headings, removed extra whitespace, and verified correct author–platform–format order and link validity.
+
+* Fix alphabetical order and formatting for Bangla Web Development section",1,6,0,f,2025-10-21 01:44:17,EbookFoundation/free-programming-books,Python,374571
+19,35ce094f095d08b9b164cc062d442ff1081e8953,viktoria_koval,78905683+vicoolchik@users.noreply.github.com,"removed broken link (#12664)
+
+* removed broken link
+
+* fix format",1,0,1,f,2025-10-21 01:42:48,EbookFoundation/free-programming-books,Python,374571
+20,a0331a0715d2a22774a7af202eb0f4b89c548a89,Soniku Taiyō Kagami,sksoni1611@gmail.com,feature: add fastAPI courses in free-courses-en.md (#12702),1,3,1,f,2025-10-21 01:41:33,EbookFoundation/free-programming-books,Python,374571
+21,e1dec94a1723d0d3392c199ac70b49eff4d302df,Soniku Taiyō Kagami,sksoni1611@gmail.com,feature: add Compiler Design course in free-courses-en.md (#12700),1,1,0,f,2025-10-21 01:38:34,EbookFoundation/free-programming-books,Python,374571
+22,8ea8b669f8bd8c9bfec05b1640d6fe4657000af2,Soniku Taiyō Kagami,sksoni1611@gmail.com,feature: add AutoIt courses in free-courses-en.md (#12698),1,2,0,f,2025-10-21 01:37:51,EbookFoundation/free-programming-books,Python,374571
+23,48a146415f1ea75994fdc69f4aec9f527cd87464,Soniku Taiyō Kagami,sksoni1611@gmail.com,feature: add APL course in free-courses-en.md (#12696),1,1,0,f,2025-10-21 01:37:24,EbookFoundation/free-programming-books,Python,374571
+24,bdb2fdbc17c0772077ef697088518f6d6f42ac2b,Soniku Taiyō Kagami,sksoni1611@gmail.com,feature: add blockchain course in free-courses-hi.md (#12695),1,1,0,f,2025-10-21 01:36:44,EbookFoundation/free-programming-books,Python,374571
+25,ba6915bb47b9ac18948684b277916fa8124d3457,0xSYN.dev,86598690+SAYOUNCDR@users.noreply.github.com,"Add “Go Backend Complete Cheat Sheet” , Comprehensive Go Backend  Cheeetsheet (#12703)
+
+* Added Typescript with react and node/express
+
+* Order fixed
+
+* Spaces linting error fixed
+
+* Update more/free-programming-cheatsheets.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* Linting error solved + title changed
+
+* Added Docker comprehensive cheetsheet
+
+* Docker cheetsheet
+
+* Fixed errors
+
+* Allcaps is removed and resolved
+
+* Added Springboot cheat
+
+* Fixed some issue on linting
+
+* Added springboot cheetsheet
+
+* Added descriptive titles for cheetsheets
+
+* Added Go backend comprehensive cheatshhet
+
+* Linting error fixed
+
+* Added Go CheatSheet for backed -fixed linting error
+
+* Linting error fixed
+
+---------
+
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-21 01:36:13,EbookFoundation/free-programming-books,Python,374571
+26,8deec585243cffca2314faae42e98057f528b5e4,Logesh R,45895919+surlogu@users.noreply.github.com,"add Bench CLI cheatsheet (#12613)
+
+* Fix: Update AI section in free-courses-ta.md with new resources
+
+* Fix: Add a line break for better readability in the AI section of free-courses-ta.md
+
+* Fix: Add line breaks for improved readability in the Index and AI sections of free-courses-ta.md
+
+* Fix: Add line breaks for improved readability in the AI and Android sections of free-courses-ta.md
+
+* Add Bench CLI section with cheatsheet link to free-programming-cheatsheets.md
+
+* Update Bench CLI Cheatsheet attribution in free-programming-cheatsheets.md
+
+* Add additional Bench CLI resources and commands to cheatsheet
+
+* Reorder Bench CLI resources for improved clarity in cheatsheet
+
+* Reorganize Bench CLI section in cheatsheets",1,9,0,f,2025-10-21 01:27:35,EbookFoundation/free-programming-books,Python,374571
+27,61c599b48ab86143b6dd7fc476f2f980ce3e1661,Satyam Mishra,89126855+bedead@users.noreply.github.com,"Add generative ai for beginners with js (#12692)
+
+* Add Generative AI for Beginners (.NET Edition) en version
+
+* feat: add Generative KI für Anfänger (.NET Edition) by Microsoft (German)
+
+* feat: add 初心者向け 生成 AI .NET コース by Microsoft (Japanese)
+
+* feat: add Générative AI pour Débutants .NET - Un Cours (French)
+
+* add Foundation Models & Generative AI (MIT OpenCourseWare)
+
+* remove trailing slash
+
+* Update courses/free-courses-en.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* update course alphabetical ordering
+
+* add Generative AI for Beginners (Version 3) Python and TypeScript
+
+Signed-off-by: Satyam Mishra <satyammishra9050@gmail.com>
+
+* Generative AI for beginners with JavaScript
+
+Signed-off-by: Satyam Mishra <satyammishra9050@gmail.com>
+
+---------
+
+Signed-off-by: Satyam Mishra <satyammishra9050@gmail.com>
+Co-authored-by: Satyam Mishra <satyammishra9050@gmail.com>
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-21 01:24:50,EbookFoundation/free-programming-books,Python,374571
+28,eb6f7d58bdbda0fcb0f7d363ea749763b283e271,Christoph,krz@users.noreply.github.com,"Update free-programming-books-subjects.md (#12687)
+
+added a work in progress tag (because this book is still in progress)",1,1,1,f,2025-10-21 01:14:59,EbookFoundation/free-programming-books,Python,374571
+29,ad8104de54ab6ac22f5645178f9f1a3dddb53e41,shreyakash24,rrkashikar96@gmail.com,"added AWS course (#12581)
+
+* added shell scripting course
+
+* Added the AWS playlist link
+
+* Update courses/free-courses-en.md
+
+Co-authored-by: Leithen <lcrider@cvent.com>
+
+* Update courses/free-courses-en.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+---------
+
+Co-authored-by: Leithen <lcrider@cvent.com>
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-21 01:11:26,EbookFoundation/free-programming-books,Python,374571
+30,5e17463991d963ec11df333f52e4101b0810ebd9,Prajjit Basu,basuprajjit31@gmail.com,"Add : An Introduction to IBM Cloud Satellite - IBM  (#12673)
+
+* Add course on IBM Cloud Satellite
+
+* Remove duplicate course entry for IBM Cloud Satellite
+
+Removed duplicate entry for 'An Introduction to IBM Cloud Satellite'.
+
+* Update course link for IBM Cloud Satellite
+
+* Add IBM Cloud Satellite course link",1,1,0,f,2025-10-21 01:08:21,EbookFoundation/free-programming-books,Python,374571
+31,6d35cf67c336edab0cb7ead900346806b97f3a50,ti-v,thetivishasinha@gmail.com,"Add book ""Solaris Dynamic Tracing Guide"" under Dtrace Section in Books  (#12670)
+
+* Add ColdFusion Programming resource link
+
+* REVERTS previous change
+
+* Add ""Solaris Programming Guide"" to Books",1,1,0,f,2025-10-21 01:05:35,EbookFoundation/free-programming-books,Python,374571
+32,c8afc76bb7e6cea09f7512a6b2dde36fe70dad96,ti-v,thetivishasinha@gmail.com,"Add ""GraphQL and Android"" Book to GraphQL Section (#12658)
+
+* Add ColdFusion Programming resource link
+
+* REVERTS previous change
+
+* Add 'GraphQL and Android' resource to the list
+
+* Add PDF notation to GraphQL and Android entry
+
+* Reorder GraphQL resources in the list",1,1,0,f,2025-10-21 00:54:28,EbookFoundation/free-programming-books,Python,374571
+33,6b63db67dff6fd256c16c7768bad6fb01a5192e2,JDeep,132117873+JDeep1234@users.noreply.github.com,"fix: Remove SoloLearn course links due to access restrictions (#12699)
+
+* fix: Remove broken link for The Python Game Book
+
+Removed the entry for 'The Python Game Book' by Horst Jens as the archived link returns 404 errors and the original site is no longer accessible (403 forbidden).
+
+Fixes #12663
+
+* fix: Remove SoloLearn course links due to access restrictions
+
+Removed all SoloLearn course links as the platform now requires completing previous exercises before accessing new content, which violates the principle of free and open access to educational resources.
+
+This affects the following sections:
+- C# (Learn C#)
+- C++ (Sololearn C++)
+- Data Science (Learn Data Science)
+- Database (SQL) (Learn SQL)
+- Java (Learn Java)
+- JavaScript / React (Learn React + Redux)
+- Machine Learning (Machine Learning)
+- PHP (Learn PHP)
+- Python (Python Tutorials)
+- Swift (Learn Swift 4)
+
+Fixes #12660",2,0,11,f,2025-10-21 00:52:16,EbookFoundation/free-programming-books,Python,374571
+34,0b3852f1204c61b9410ea028fb21733848be7941,Anjali Chourasia,80000321+thenameisanjalii@users.noreply.github.com,replaced broken link of apni kaksha with working link (#12689),1,2,2,f,2025-10-20 17:21:41,EbookFoundation/free-programming-books,Python,374571
+35,12e9c857830b127f6147702d1c065382367b386a,Anjali Chourasia,80000321+thenameisanjalii@users.noreply.github.com,"Fixed broken links in Linux, Networking, and CodeIgniter tutorial sections (#12674)
+
+* replaced-broken-links-with-working-links
+
+* fixed-ordering",1,3,3,f,2025-10-20 17:21:10,EbookFoundation/free-programming-books,Python,374571
+36,e8602a0e1467c14caaac26e1fa21af59304c936f,ti-v,thetivishasinha@gmail.com,"Removes Faulty Link -- Hindi Section, PHP, ""PHP Tutorial in Hindi""  (#12671)
+
+* Add ColdFusion Programming resource link
+
+* REVERTS previous change
+
+* Remove Ineffective PHP in Hindi Tutorial Link",1,0,1,f,2025-10-20 13:58:08,EbookFoundation/free-programming-books,Python,374571
+37,b301a01f1512f53ed79485b2404881836707ca77,gsiri007,216904534+gsiri007@users.noreply.github.com,Removed 403 Forbidden - Object-Oriented Programming in JavaTM Textbook (#12667),1,1,2,f,2025-10-20 02:16:00,EbookFoundation/free-programming-books,Python,374571
+38,4f2da659ee0e20fcb6de73b62b59c203af0c7db9,ti-v,thetivishasinha@gmail.com,Add ColdFusion Programming resource link (#12652),1,1,0,f,2025-10-20 01:54:43,EbookFoundation/free-programming-books,Python,374571
+39,281918fd731fa9dbfdd2814bb8ee35685dd0b1fe,raiyyan,f20241312@pilani.bits-pilani.ac.in,"add cheatsheet for blockchain (#12612)
+
+* add cheatsheet for blockchain
+
+add cheatsheet for blockchain
+
+* Remove duplicate entry in Blockchain section
+
+Removed duplicate Blockchain Cheat Sheet entry.
+
+* Fix spelling and format in cheatsheets
+
+Corrected spelling of 'BlockChain' to 'Blockchain' and added hyphens before names in the Blockchain section.
+
+* Remove duplicate Blockchain For Beginners link
+
+Removed duplicate link for 'Blockchain For Beginners'.
+
+* Update author names in blockchain cheat sheets",1,8,0,f,2025-10-20 01:53:09,EbookFoundation/free-programming-books,Python,374571
+40,0fe6bd1526abd8e54f4ae1cd50d8aafa7ef033d4,ti-v,thetivishasinha@gmail.com,"Add Sage Wikibook to Sage Section (#12641)
+
+* Add Sage resources to programming books list
+
+* Update Sage entry with construction status
+
+Added construction status note for Sage entry.",1,2,0,f,2025-10-20 01:45:30,EbookFoundation/free-programming-books,Python,374571
+41,a77596575a222f9fb3a7a740dfd11b58b099153c,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added Javascript cheatsheet from ZTM (#12588)
+
+* Added Javascript cheatsheet from ZTM
+
+* Update more/free-programming-cheatsheets.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+---------
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-20 01:29:07,EbookFoundation/free-programming-books,Python,374571
+42,2c6a7fc95263cea05f008d05968bdbe5058b5f1b,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added Business analytics with python cheat sheet from ZTM (#12563)
+
+* Added Business analytics with python cheat sheet from ZTM
+
+* Added acidentally deleted line of 449
+
+---------
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,2,0,f,2025-10-20 01:27:25,EbookFoundation/free-programming-books,Python,374571
+43,8646625cefd7df645750bd517e428d9c36b8722c,Mohamed Adel,mohamedation@gmail.com,"update AR book author name and format (#12648)
+
+* update AR security section with author name and format for digital security guide
+
+* update Ada section",2,6,6,f,2025-10-20 01:24:56,EbookFoundation/free-programming-books,Python,374571
+44,1800c8fee80af5f66cc62485a191533032a92ce4,Diya Joshy,diyarjoshy@gmail.com,"Add CS50's Introduction to Cybersecurity course by David J. Malan (#12607)
+
+* Add CS50's Introduction to Cybersecurity course by David J. Malan
+
+* Fix spacing issue after link in CS50 Cybersecurity course entry
+
+* Update courses/free-courses-en.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+---------
+
+Co-authored-by: Diya Joshy <diyajoshy8ackmnss@gmail.com>
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-20 01:23:31,EbookFoundation/free-programming-books,Python,374571
+45,3b027f1732a73f41df37c8de6370f43a7330ee86,dependabot[bot],49699333+dependabot[bot]@users.noreply.github.com,"chore(deps): bump actions/setup-node from 5 to 6 (#12605)
+
+Bumps [actions/setup-node](https://github.com/actions/setup-node) from 5 to 6.
+- [Release notes](https://github.com/actions/setup-node/releases)
+- [Commits](https://github.com/actions/setup-node/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-node
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",1,1,1,f,2025-10-20 01:20:17,EbookFoundation/free-programming-books,Python,374571
+46,e35a5866d095fafe8bbcbf7a4a7582d74a2aa5a1,Bilal pothigara,104914703+Robin42123@users.noreply.github.com,"Add Foundational C# with Microsoft Certification (#12599)
+
+* Add Foundational C# with Microsoft Certification
+
+Add ""C# with Microsoft Certification""  A Free Collection of Resources To Learn C# with Microsoft and Free Code Camp.
+Added under CSharp Section In free-courses-en.md.
+
+* Update free-courses-en.md",1,1,0,f,2025-10-20 01:15:44,EbookFoundation/free-programming-books,Python,374571
+47,88d7cac68c74e6151fa2d47de6ebedce71a714cc,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Add sql cheatsheet (#12590)
+
+* Add sql cheatsheet
+
+* Fix typo ZeroToMastery
+
+---------
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-20 01:13:36,EbookFoundation/free-programming-books,Python,374571
+48,3723c070f990d54c9394c3e24116cad8f0a982aa,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added Linux command cheatsheet (#12591)
+
+* Added Linux command cheatsheet
+
+* Add empty space between sections
+
+* Update more/free-programming-cheatsheets.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+---------
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-20 01:12:07,EbookFoundation/free-programming-books,Python,374571
+49,168af8561a2450763fca3dbbedce1e6f915c7678,raiyyan,f20241312@pilani.bits-pilani.ac.in,"added puppet, Jenkins cheatsheets (#12619)
+
+* added puppet, Jenkins cheatsheets
+
+added puppet, Jenkins cheatsheets
+
+* Update Jenkins and Puppet cheat sheet links
+
+* Reorder Puppet cheat sheet links
+
+* Standardize 'Cheat Sheet' to 'CheatSheet' format",1,7,2,f,2025-10-20 01:09:19,EbookFoundation/free-programming-books,Python,374571
+50,4d0fba10e347e3dfa0713bf3d3c400668d26b8eb,Mehal Srivastava,60780734+MeHalogen@users.noreply.github.com,"Add cy index and course links (#12471)
+
+* Add cy index and course links
+
+* commit-2
+
+* fixed
+
+* fixed2",1,8,0,f,2025-10-20 01:02:12,EbookFoundation/free-programming-books,Python,374571
+51,d8530c7e5df64b7ce5fd08f9709916feb5a43b31,Akshay Chandra,chandrakshay13@gmail.com,"Added Rust one shot video course and NoSql youtube playlist course (#12577)
+
+* Added Rust programming course by freeCodeCamp.org
+
+* Added NoSql YT course by Telusko
+
+* Removed rust course",1,1,0,f,2025-10-20 00:59:55,EbookFoundation/free-programming-books,Python,374571
+52,46c161647f9322cd9f6f0dc9e67305ccf397e734,Anjali Chourasia,80000321+thenameisanjalii@users.noreply.github.com,"added cheatsheets for go and kotlin (#12551)
+
+* added cheatsheets for go and kotlin
+
+* fixed deleted resources
+
+* removed quickref cheatsheets
+
+* resolved conflict",1,3,0,f,2025-10-20 00:48:28,EbookFoundation/free-programming-books,Python,374571
+53,3ffdfd2e788a4efdcc3f578da52d2a324ae3b4d3,Alex Pantechovskis,alex.pantec@gmail.com,"add Mature Optimization Russian translation (#12593)
+
+* add Mature Optimization Russian translation
+
+* Fix spaces",1,6,0,f,2025-10-20 00:41:32,EbookFoundation/free-programming-books,Python,374571
+54,cb0c466ca4b9ea1d0d469309be9460470ac22874,Tubagus Maulana Aghni,58358913+maulanaaghnii@users.noreply.github.com,"add c# asp.net roadmap cheatsheet (#12636)
+
+* add c# asp.net roadmap cheatsheet
+
+* resolve changes
+
+* resolve changes
+
+* resolve changes
+
+* resolve changes
+
+* resolve changes",1,1,0,f,2025-10-19 15:42:55,EbookFoundation/free-programming-books,Python,374571
+55,306c3d314996fb1553ef26135478301fe22321f1,ti-v,thetivishasinha@gmail.com,Add 'The Yii Book' to Yii section (#12634),1,1,0,f,2025-10-19 15:41:14,EbookFoundation/free-programming-books,Python,374571
+56,50523239d729c3cb38f7b89853680461fb8cbcbc,Bilal pothigara,104914703+Robin42123@users.noreply.github.com,"Update SoloLearn Python course links (#12627)
+
+Removed outdated SoloLearn Python course link and replaced another SoloLearn entry with the updated Python Developer Course link, noting registration is required. Changes Made in ""Python"" Section in free-courses-en.md.",1,1,2,f,2025-10-19 15:40:33,EbookFoundation/free-programming-books,Python,374571
+57,b122a4b0ea673d07fb6fcae624420b12e65223de,Ivan Oranciuc,95760855+OranciucIvan@users.noreply.github.com,"Update free-programming-playgrounds.md (#12626)
+
+The resource has been removed - the link leads to a casino website",1,0,1,f,2025-10-19 15:39:10,EbookFoundation/free-programming-books,Python,374571
+58,1a92a7747ca4a75c66350d654a72e45bffc654f4,raman1236,raman12368@gmail.com,"Add Complete Terraform Course to Terraform section (#12620)
+
+* Add Complete Terraform Course to Terraform section
+
+* Fix alphabetical order in Terraform section
+
+---------
+
+Co-authored-by: rvasikarla <rvasikarla@splunk.com>",1,1,0,f,2025-10-19 15:32:27,EbookFoundation/free-programming-books,Python,374571
+59,054a9f44135105e857f60314d378fcde3ab01ffa,0xSYN.dev,86598690+SAYOUNCDR@users.noreply.github.com,"feat: add structured Spring Boot cheat sheet covering setup, concepts, deployment, and best practices (#12618)
+
+* Added Typescript with react and node/express
+
+* Order fixed
+
+* Spaces linting error fixed
+
+* Update more/free-programming-cheatsheets.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* Linting error solved + title changed
+
+* Added Docker comprehensive cheetsheet
+
+* Docker cheetsheet
+
+* Fixed errors
+
+* Allcaps is removed and resolved
+
+* Added Springboot cheat
+
+* Fixed some issue on linting
+
+* Added springboot cheetsheet
+
+* Added descriptive titles for cheetsheets
+
+---------
+
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,2,1,f,2025-10-19 15:29:54,EbookFoundation/free-programming-books,Python,374571
+60,e8f5d7261721f205f26f3572ead88b02fc1d69d6,Rudrabikram Roy,rudrabikram.roy@gmail.com,Added license notation for 2 books under Arduino section (#12617),1,2,2,f,2025-10-19 15:29:11,EbookFoundation/free-programming-books,Python,374571
+61,8fea89d6609dd38c84df05ff4c6f76e17bee79c3,sairamsharan,143504336+sairamsharan@users.noreply.github.com,"Fix Deep Learning URLs and resolve trailing slash issues (#12608)
+
+* Fix Deep Learning URLs and resolve trailing slash issues
+
+* Remove trailing slash from Stanford CS234 URL",1,5,4,f,2025-10-19 15:20:09,EbookFoundation/free-programming-books,Python,374571
+62,255ad80e82673a577870bd23cf2e385d1fcfa0a5,harshitsachdeva1997,115349938+harshitsachdeva1997@users.noreply.github.com,Update free-programming-playgrounds.md (#12606),1,1,0,f,2025-10-19 15:15:29,EbookFoundation/free-programming-books,Python,374571
+63,cc8d4abe7395a53fb0609df7df304d573d381e58,HarshitSachdeva,harshsachdeva80@gmail.com,"Update free-programming-playgrounds.md (#12603)
+
+* Update free-programming-playgrounds.md
+
+* Update free-programming-playgrounds.md
+
+* Update free-programming-playgrounds.md",1,1,0,f,2025-10-19 15:14:20,EbookFoundation/free-programming-books,Python,374571
+64,025c5b4a1469fd0f45ab39ee382e723d6ffbd2f3,Tejas Nalawade,89332752+Tejas-Santosh-Nalawade@users.noreply.github.com,"Add three Rust playground resources (#12602)
+
+* Add three Rust playground resources
+
+- Codapi
+- Rust Explorer
+- Rustfinity
+
+* Linter error solved",1,3,0,f,2025-10-19 15:12:24,EbookFoundation/free-programming-books,Python,374571
+65,0872cc6a0da173ad2e19c66135b704562c4beae2,Tejas Nalawade,89332752+Tejas-Santosh-Nalawade@users.noreply.github.com,"docs(rust): add three new Rust programming tutorials (#12601)
+
+- Add Rust Programming Tutorial by Trevor Sullivan
+- Add Learn Rust by Smart Contract Programmer
+- Add Rust Crash Course Tutorial for Beginners by Francesco Ciulla
+
+All entries properly formatted and placed in alphabetical order within the Rust section.",1,3,0,f,2025-10-19 15:11:11,EbookFoundation/free-programming-books,Python,374571
+66,af185e7633725a38f6fc8dc24df275dd64ef591d,Wellington Magri,110054262+Tinhomagri@users.noreply.github.com,add Markdown (#12595),1,1,0,f,2025-10-19 15:06:51,EbookFoundation/free-programming-books,Python,374571
+67,878118a20cf1f505f8abaa7984771e5b13652d1a,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Add TypeScript cheatsheet from ZTM (#12589)
+
+* Add TypeScript cheatsheet from ZTM
+
+* add missing empty line
+
+---------
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-19 15:00:55,EbookFoundation/free-programming-books,Python,374571
+68,24a1fc2023416150c2f7f3a83808369c7ab52901,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Add React cheatsheet from ZTM (#12587)
+
+* Add React cheatsheet from ZTM
+
+* Move to line 335
+
+* Moved to line 334
+
+* Moved to line 333 as suggested
+
+---------
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-19 14:59:05,EbookFoundation/free-programming-books,Python,374571
+69,081bb7bb1e0e06e66550aa8967e1386b28a7e991,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added Python cheatsheet from ZTM (#12586)
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-19 14:58:35,EbookFoundation/free-programming-books,Python,374571
+70,70e3244e3467ce04ad6d9de8be81671ce69a19e4,Harihara Subramanian M,74015897+HariharaSubramanianM@users.noreply.github.com,"Replaced Broken Link for Computer Networking Resource (#12419)
+
+* replaced broken link
+
+* Linter Fix
+
+Removed trailing slash '/'",1,1,1,f,2025-10-19 14:57:43,EbookFoundation/free-programming-books,Python,374571
+71,a1437e43756dfe7fbe870b5ca05174c58e31d4dd,Wellington Magri,110054262+Tinhomagri@users.noreply.github.com,"Feature/pt br hacktoberfest (#12585)
+
+* feat(pt_BR): Add  cursos de Delphi, Elixir, Sass and Swift
+
+* fix(pt_BR): add course Lua
+
+* feat(pt_BR): Add  cursos de Delphi, Elixir, Sass, Lua and Linux
+
+* feat(pt_BR) add Linux
+
+* (pt_BR) add Linux
+
+* (pt_BR) add Sass, Rust and React Native
+
+* (pt_BR) add segurança da informação
+
+* feat/(pt_BR) add Angular,TypeScript and WordPress
+
+* feat/ add Markdown,Programação,Django,Flask
+
+* feat/add raspberry Pi,Sass,Swift and SEO",1,5,0,f,2025-10-18 02:16:32,EbookFoundation/free-programming-books,Python,374571
+72,a04f38845c26324e58097952ab6aa495adb61a82,Mohd Rohaan,52445015+rohaanmd@users.noreply.github.com,"ADD: All resources to become Ai engineer, with free courses and yt video #12396 (#12560)
+
+* ADD: All resources to become Ai engineer, with free courses and yt videos  #12396
+
+* Update free-programming-books-subjects.md
+
+* Update links and formatting in subjects list
+
+* Remove duplicate book entries in subjects list
+
+Removed duplicate entries for 'Introduction to Machine Learning Systems' and 'Learn Tensorflow'.
+
+* Fix formatting for text mining and ML resources
+
+* Update books/free-programming-books-subjects.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* Update books/free-programming-books-subjects.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* Update books/free-programming-books-subjects.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* Remove LLM Transformer Model link from subjects
+
+Removed a link to 'LLM Transformer Model Visually Explained'.
+
+* Add LLM Transformer Model tutorial link
+
+---------
+
+Co-authored-by: Eric Hellman <eric@hellman.net>",2,15,4,f,2025-10-18 02:15:05,EbookFoundation/free-programming-books,Python,374571
+73,498782b5dd4bb080aacaa79068c907a3181cf536,0xSYN.dev,86598690+SAYOUNCDR@users.noreply.github.com,"Adds Docker cheat sheet  for full-stack developers (MERN) (#12557)
+
+* Added Typescript with react and node/express
+
+* Order fixed
+
+* Spaces linting error fixed
+
+* Update more/free-programming-cheatsheets.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+* Linting error solved + title changed
+
+* Added Docker comprehensive cheetsheet
+
+* Docker cheetsheet
+
+* Fixed errors
+
+* Allcaps is removed and resolved
+
+* Added Springboot cheat
+
+* Fixed some issue on linting
+
+---------
+
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-18 02:13:27,EbookFoundation/free-programming-books,Python,374571
+74,f80e16cb055a503275459a9372cd92ffc2f14fd0,Jonatha Carvalho,80285848+jowgaze@users.noreply.github.com,"Add 'Introdução ao Python' resource in Portuguese (#12584)
+
+* Add 'Introdução ao Python' resource in Portuguese
+
+* Update alphabetical order
+
+* Fix alphabetical ordering",1,1,0,f,2025-10-18 02:02:01,EbookFoundation/free-programming-books,Python,374571
+75,6b175063a48641a33e53d8940c529ffa3bdbb88f,Raymond Yee,raymond.yee@gmail.com,Add Pro Web 2.0 Mashups (2008) to Web Services section (#12583),1,1,0,f,2025-10-18 02:00:38,EbookFoundation/free-programming-books,Python,374571
+76,0f8014d43dcc2f5a3b77459562b653b480a500c7,him2016,39089904+him2016@users.noreply.github.com,Update free-programming-playgrounds.md (#12582),1,1,0,f,2025-10-18 01:59:52,EbookFoundation/free-programming-books,Python,374571
+77,c6c8ef88f7524cb194227d0bceb0f45eeaf604f6,raiyyan,f20241312@pilani.bits-pilani.ac.in,"Add cheat sheets for Chef, Jenkins, and Puppet (#12555)
+
+* Add cheat sheets for Chef, Jenkins, and Puppet
+
+Add Cheat Sheets for Chef, Jenkins, and Puppet
+This pull request adds comprehensive cheat sheets for three key DevOps configuration management tools: Chef, Jenkins, and Puppet. These tools are widely used in automation, infrastructure management, and continuous integration/continuous deployment (CI/CD) pipelines.
+
+Why this is valuable:
+
+Chef, Puppet, and Jenkins are cornerstones of modern DevOps workflows, enabling efficient and reliable management of infrastructure and software delivery.
+
+The cheat sheets provide quick yet detailed references for commands, architecture, common use cases, and best practices, helping practitioners accelerate learning and day-to-day work.
+
+Including these cheat sheets enriches the repository’s DevOps section, making it a more complete and practical resource for developers, sysadmins, and engineers.
+
+Sources and Quality:
+All added cheat sheets come from reputable providers such as Intellipaat, which offer free, up-to-date, and well-structured content accessible without paywalls.
+
+Highlights from the added cheat sheets:
+
+Chef: Covers configuration management concepts, cookbook recipes, and client-server architecture details.
+
+Puppet: Explains manifests, modules, agent-server communication, and compliance reporting capabilities.
+
+Jenkins: Includes pipeline creation, job configuration, plugin management, and CI/CD best practices.
+
+This update is aligned with current DevOps trends and the increasing demand for reliable infrastructure automation and deployment tools.
+
+Date: Thursday, October 16, 2025, 6 PM IST
+
+* Fix formatting in free-programming-cheatsheets.md
+
+Fix formatting in free-programming-cheatsheets.md
+
+* Refactor cheat sheet index for DevOps topics
+
+Reorganized cheat sheet index to group DevOps-related topics and added Ansible and Chef cheat sheets under DevOps.",1,44,19,f,2025-10-18 01:55:53,EbookFoundation/free-programming-books,Python,374571
+78,da893a5d768949114344e0c0d5ce43fe59de019b,Gitesh Mandawara,72971041+G31-dev@users.noreply.github.com,"Add Quantitative Analysis section with three free book resources (#12565)
+
+* Add Quantitative Analysis section with three free book resources
+
+- Added OpenIntro Statistics with CC BY license
+- Added Fundamentals of Quantitative Analysis (CC BY-SA) source repo
+- Added Applied Quantitative Finance draft (license unspecified; free for educational use)
+- Included notes about licensing and usage for clarity
+
+This adds a focused new section in free programming books for quantitative analysis/finance learners.
+
+* Fix linter errors: list marker and spacing
+
+* Fix linter errors: list marker and spacing #2
+
+* Fix linter errors: list marker and spacing #3
+
+* Refactor: Consolidate Quantitative resources into Statistics & apply all review feedback (Resolves #12565)
+
+* **Relocation & Cleanup:** Moves all Quantitative Analysis entries to the 'Statistics' section under the 'Mathematics' heading, and deletes the obsolete 'Quantitative Analysis' section heading.
+* **Content Cleanup:** Removes a duplicate entry for the 'OpenIntro Statistics' book.
+* **Link Fixes:**
+    * Updates the link for 'Applied Quantitative Finance' to the stable, free Springer PDF source, as requested.
+    * Updates the link for 'Fundamentals of Quantitative Analysis' to the official `github.io` page.
+* **Style Fix:** Removes the 'Dr.' honorific from the author name for 'Fundamentals of Quantitative Analysis'.",1,2,0,f,2025-10-18 01:53:31,EbookFoundation/free-programming-books,Python,374571
+79,cbaa423b42e77c768020091e73d2574f3d511b5a,Olexandr88,radole1203@gmail.com,Update README.md (#12575),1,1,1,f,2025-10-18 01:48:05,EbookFoundation/free-programming-books,Python,374571
+80,15af05e264bf2260598c5dd19439dd3fbb0976ae,David Julian Jaramillo,60593618+grifhus@users.noreply.github.com,"feat(casts): add podcast 'Programador X' by Xavier Reyes Ochoa (#12572)
+
+* feat(casts): agregar podcast 'Programador X' de Xavier Reyes Ochoa
+
+* fix(casts): correct list markers and alphabetical order in podcasts
+
+* feat(podcast): add 'Programador X' - Xavier Reyes Ochoa
+
+Add the podcast 'Programador X' by Xavier Reyes Ochoa to the Spanish free programming podcasts list.
+
+- Alphabetized under Programming section
+- Marked as podcast
+- Verified link on Spotify",1,1,0,f,2025-10-18 01:39:14,EbookFoundation/free-programming-books,Python,374571
+81,a04d4dca7dd76dade802a86bc790aafe4feb6709,Logesh R,45895919+surlogu@users.noreply.github.com,"Add AI section with relevant tutorials in Tamil (#12561)
+
+* Fix: Update AI section in free-courses-ta.md with new resources
+
+* Fix: Add a line break for better readability in the AI section of free-courses-ta.md
+
+* Fix: Add line breaks for improved readability in the Index and AI sections of free-courses-ta.md
+
+* Fix: Add line breaks for improved readability in the AI and Android sections of free-courses-ta.md",1,7,0,f,2025-10-17 02:45:42,EbookFoundation/free-programming-books,Python,374571
+82,b68a917976d3899d82f607f5125f0a2f9f0283c0,Bilal pothigara,104914703+Robin42123@users.noreply.github.com,"Add Reverse Engineering Lessons (reverseengineering.vercel.app) (#12559)
+
+* Add Reverse Engineering Lessons (reverseengineering.vercel.app)
+
+Add ""Reverse Engineering Lessons"" — a free collection of lessons and resources for reverse engineering: https://reverseengineering.vercel.app/
+Accessible without login; multi-page resource (TOC + lessons). Added under the Security section in free-courses-en.md
+
+* Fix: remove trailing slash from Reverse Engineering Lessons URL
+
+* Update courses/free-courses-en.md
+
+Co-authored-by: Eric Hellman <eric@hellman.net>
+
+---------
+
+Co-authored-by: Eric Hellman <eric@hellman.net>",1,1,0,f,2025-10-17 02:43:56,EbookFoundation/free-programming-books,Python,374571
+83,146910c5387eb515401f01fd530be4c99917455a,Ivan Oranciuc,95760855+OranciucIvan@users.noreply.github.com,"Update free-courses-ru.md (#12570)
+
+This course has been removed from the site. The archived version requires registration, but registration is impossible, rendering the resource useless.",1,0,1,f,2025-10-17 02:40:40,EbookFoundation/free-programming-books,Python,374571
+84,da36076b57c4851d38174a4f5c0040f667c31c45,Wellington Magri,110054262+Tinhomagri@users.noreply.github.com,"Feature/pt br hacktoberfest (#12552)
+
+* feat(pt_BR): Add  cursos de Delphi, Elixir, Sass and Swift
+
+* fix(pt_BR): add course Lua
+
+* feat(pt_BR): Add  cursos de Delphi, Elixir, Sass, Lua and Linux
+
+* feat(pt_BR) add Linux
+
+* (pt_BR) add Linux
+
+* (pt_BR) add Sass, Rust and React Native
+
+* (pt_BR) add segurança da informação
+
+* feat/(pt_BR) add Angular,TypeScript and WordPress
+
+* feat/ add Markdown,Programação,Django,Flask",1,8,1,f,2025-10-17 02:30:25,EbookFoundation/free-programming-books,Python,374571
+85,c1a736e73d91ffe14be170465e3385582df96f5a,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added solidity cheatsheet from ZTM (#12569)
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-17 02:29:04,EbookFoundation/free-programming-books,Python,374571
+86,e92dfae6c26c881b4c8ad1b0134c710dc5a9b63f,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added Big O cheatsheet from ZTM (#12568)
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-17 02:28:25,EbookFoundation/free-programming-books,Python,374571
+87,519ec98348f665d873170bb1ec85acb3461988fd,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added data structure and algorithms cheatsheet from ZTM (#12567)
+
+* Added data structure and algorithms cheatsheet from ZTM
+
+* Swap line 156 and 157
+
+---------
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-17 02:27:17,EbookFoundation/free-programming-books,Python,374571
+88,7adff389179abd61611f059eca5e70adfa83d085,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added Rust cheatsheet (#12566)
+
+* Added Rust cheatsheet
+
+* Swap line 513 and 514
+
+---------
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-17 02:26:18,EbookFoundation/free-programming-books,Python,374571
+89,93b9dcdc59086562c4788ff94c1ecf0bc72f54e4,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Added golang cheatsheet from ZTM (#12564)
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-17 02:25:51,EbookFoundation/free-programming-books,Python,374571
+90,e8f07cc2ec21527682ef280e51200ee188ab7f37,enguy-hub,16822912+enguy-hub@users.noreply.github.com,"Add tensorflow cheatsheet from ZTM (#12562)
+
+Co-authored-by: enguy-hub <enguy-hub@github.com>",1,1,0,f,2025-10-17 02:24:41,EbookFoundation/free-programming-books,Python,374571
+91,9a262e03c9070b3b2e4314fd0406aec008736926,Girdhar Agrawal,91367509+girdharagrawalbro@users.noreply.github.com,"Remove incorrect Leanpub access notes from D3, Leaflet, PureScript books (batch10) (#12516)
+
+* Add Leanpub access notes to D3 Tips and Tricks, Leaflet Tips and Tricks, PureScript By Example
+
+* Remove incorrect Leanpub access notes from D3, Leaflet, and PureScript books - all have free HTML",1,2,2,f,2025-10-17 01:57:47,EbookFoundation/free-programming-books,Python,374571
+92,5307d0b3135b374d6ccaa7452c12990e8c95244c,Girdhar Agrawal,91367509+girdharagrawalbro@users.noreply.github.com,"Remove incorrect Leanpub access notes from Raspberry Pi and Scala books (batch9) (#12515)
+
+* Add Leanpub access notes to Scala and Raspberry Pi books
+
+* Remove incorrect Leanpub access notes from Raspberry Pi and Scala books - all have free HTML",1,2,2,f,2025-10-17 01:57:17,EbookFoundation/free-programming-books,Python,374571
+93,2beed39cd921b746cdca22bb20e921b4efebcdfb,Girdhar Agrawal,91367509+girdharagrawalbro@users.noreply.github.com,"Remove incorrect Leanpub access notes from Ruby books (batch8) (#12514)
+
+* Add Leanpub access notes to Ruby books: Developing Games, Ruby Web Dev, Kestrels Quirky Birds
+
+* Remove incorrect Leanpub access notes from Developing Games With Ruby, Ruby Web Dev: The Other Way, and Kestrels Quirky Birds - all have free HTML",1,3,3,f,2025-10-17 01:56:29,EbookFoundation/free-programming-books,Python,374571
+94,ebab280fc2a759af417cd299ef95363163401ffc,Girdhar Agrawal,91367509+girdharagrawalbro@users.noreply.github.com,"Remove incorrect Leanpub access notes from Lisp and Python books (batch7) (#12511)
+
+* Add Leanpub access notes to Lisp Hackers, Loving Common Lisp, Inside The Python Virtual Machine
+
+* Remove incorrect Leanpub access notes from Lisp Hackers, Loving Common Lisp, and Inside The Python Virtual Machine - all have free HTML",1,1,1,f,2025-10-17 01:33:55,EbookFoundation/free-programming-books,Python,374571
+95,24c7a4ae1fb72162b6ffdb61f5ddbd1550ee3986,Girdhar Agrawal,91367509+girdharagrawalbro@users.noreply.github.com,"Remove incorrect Leanpub access notes from CoffeeScript, Go, JavaScript books (batch6) (#12510)
+
+* Add Leanpub access notes to CoffeeScript Ristretto, Practical Cryptography With Go, JavaScript Allongé
+
+* Remove incorrect Leanpub access notes from CoffeeScript Ristretto, Practical Cryptography With Go, and JavaScript Allongé - all have free HTML",1,2,2,f,2025-10-17 01:32:44,EbookFoundation/free-programming-books,Python,374571
+96,6ed11d4029f578207dad364914d37190087b15a1,Girdhar Agrawal,91367509+girdharagrawalbro@users.noreply.github.com,"Remove incorrect Leanpub access notes from Firefox OS, HTML5, CSS books (batch11) (#12513)
+
+* Add Leanpub access notes to Firefox OS, HTML5, and CSS books
+
+* Remove incorrect Leanpub access notes from batch11 books
+
+- Firefox OS: Complete development book with free HTML
+- Production Go: Complete Go book with free HTML
+- HTML5 Shoot 'em Up: Complete game tutorial with free HTML
+- CSS3 Visual Effects: Complete CSS book with free HTML
+- Java Microservices: Access note removed (no free HTML)
+- Lisp Web Tales: Access note removed (no free HTML)",1,1,1,f,2025-10-17 01:31:38,EbookFoundation/free-programming-books,Python,374571
+97,0158311cd06f7bac2ef805675d64e487e5e24395,Jéssica Cechin,jessica.cechin@gmail.com,"add dev samurai courses (#12519)
+
+* add dev samurai courses
+
+* fix alphabetic
+
+* fix: Update React course links and correct naming conventions
+
+* Update courses/free-courses-pt_BR.md
+
+Co-authored-by: Ajay Singh <37625112+Ajay-singh1@users.noreply.github.com>
+
+---------
+
+Co-authored-by: Ajay Singh <37625112+Ajay-singh1@users.noreply.github.com>",1,8,0,f,2025-10-17 01:21:01,EbookFoundation/free-programming-books,Python,374571
+98,4a1063176bc8e440fe32b3132a711243c6df015c,Hafeez Pizofreude,108355948+pizofreude@users.noreply.github.com,feat: add data engineering zoomcamp by DataTalks.Club (#12526),1,1,0,f,2025-10-17 01:13:24,EbookFoundation/free-programming-books,Python,374571
+99,b36cde4b84865ca9b841a4b24b13a98ae4066291,Girdhar Agrawal,91367509+girdharagrawalbro@users.noreply.github.com,"Add missing HTML format tags to 10 JavaScript books (#12543)
+
+This commit adds missing (HTML) format tags to improve metadata accuracy for JavaScript books that are web-only HTML resources.
+
+Books updated:
+1. Bible of JS - Added (PDF) format tag
+2. DOM Enlightenment - Added (HTML) format tag
+3. Essential Javascript - Added (HTML) format tag
+4. JavaScript For Beginners - Added (HTML) format tag
+5. JavaScript Fundamentals - Removed author (already in other entry)
+6. Javascript Tutorial - Added (HTML) format tag
+7. Modern JavaScript - Added (HTML) format tag
+8. Speaking JavaScript - Added (HTML) format tag
+9. The JavaScript Way - Added (HTML) format tag
+
+Also improved format consistency:
+- Building Front-End Web Apps: (HTML,PDF) → (HTML, PDF)
+- Designing Scalable JavaScript: (PDF+livebook) → (PDF, livebook)
+- JavaScript ES6: (PDF, epub) → (PDF, EPUB)
+- Standard ECMA-262: (HTML,PDF) → (HTML, PDF)",1,13,13,f,2025-10-17 01:04:49,EbookFoundation/free-programming-books,Python,374571
+100,0a7258077c7ab7e60656857741b53ed11a71200c,Divyanshu Singh,85441744+Divyanshu9794@users.noreply.github.com,Add new jQuery tutorial link in Hindi (#12539),1,1,0,f,2025-10-17 00:59:49,EbookFoundation/free-programming-books,Python,374571
+101,675a4e63bae5cf0f6569254652fce3e2fa53b900,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,11,8,f,2025-05-20 15:56:33,public-apis/public-apis,Python,371448
+102,274ecf0e19e8da03197bdda8f2c5be307ad6aa69,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,51,51,f,2024-10-31 19:50:01,public-apis/public-apis,Python,371448
+103,fde9b2b246c74f9071d07b3946e4eb7bab9b8891,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,0,1,f,2024-09-25 13:37:56,public-apis/public-apis,Python,371448
+104,410778f42e340043b71fc958da77dcb0d4cfc469,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,12,55,f,2024-08-02 13:59:32,public-apis/public-apis,Python,371448
+105,b354ba6f4fc596b72db80c5a4051be4d837f6cf6,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,1,1,f,2024-07-09 14:27:51,public-apis/public-apis,Python,371448
+106,ca09c937bbf64a5efdebca391cb8222b2cafa0e6,APILayer,75280960+apilayer-admin@users.noreply.github.com,"Merge pull request #3805 from stcalica/postman-redesign
+
+added postman logos, removed deadlinks, created popular APIs and Cate…",2,347,248,t,2024-04-29 11:29:06,public-apis/public-apis,Python,371448
+107,f3bb109a1a3743da9eaac50033b4a24b28809b11,Kyle Calica,stcalica@users.noreply.github.com,"added postman logos, removed deadlinks, created popular APIs and Categories section, new copy",2,347,248,f,2024-03-14 00:30:37,public-apis/public-apis,Python,371448
+108,49d267a721b6a8ff9ccaefc9f24c0188367008d9,APILayer,75280960+apilayer-admin@users.noreply.github.com,"Update README.md
+
+added new api",1,1,0,f,2023-09-20 13:07:26,public-apis/public-apis,Python,371448
+109,82218c7ba6778666285dc084f4ede22655ed2059,APILayer,75280960+apilayer-admin@users.noreply.github.com,"Update README.md
+
+added new api",1,1,0,f,2023-09-20 12:54:45,public-apis/public-apis,Python,371448
+110,055f7b0580490a89e8f7e6e61690e5c52f0e8181,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,4,0,f,2022-07-19 13:39:16,public-apis/public-apis,Python,371448
+111,b269b3e1e2c0322ed36a3859233a57f6cd325ae6,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,1,0,f,2022-05-18 13:48:17,public-apis/public-apis,Python,371448
+112,831ff0378fb0ba5a779e6caaa89b73766c59449e,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,5,12,f,2022-03-16 08:41:44,public-apis/public-apis,Python,371448
+113,53b16cfd0c322c573998ac416073b0c1a2857b60,APILayer,75280960+apilayer-admin@users.noreply.github.com,Add files via upload,1,0,0,f,2022-03-16 08:35:59,public-apis/public-apis,Python,371448
+114,ab16db658dcc5a443292d2ce0325d98ad0538226,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,1,0,f,2022-03-16 08:32:07,public-apis/public-apis,Python,371448
+115,81804323e7ab9907226eae256ae56719248c7dce,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove MFaaS, it's broken
+
+MFaaS returns http code 404 when accessed",1,0,1,f,2022-03-16 06:02:36,public-apis/public-apis,Python,371448
+116,166eeb5a5112b0ebf8d3cc7d6f3aa2b2518d8131,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Kawal Corona, it's broken",1,0,1,f,2022-03-16 05:56:08,public-apis/public-apis,Python,371448
+117,1dc89b0ddb8a37ef2553fac531bd67a93c843495,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Affirmations, it's broken",1,0,1,f,2022-03-16 05:53:10,public-apis/public-apis,Python,371448
+118,d69c9982c8e24a0675e73df43dd6f97cf006b75a,Matheus Felipe,matheusfelipeog@protonmail.com,"Add Free Url Shortener to URL Shorteners (#3097)
+
+resolve #3097",1,1,0,f,2022-03-16 04:48:44,public-apis/public-apis,Python,371448
+119,25250c62180676b92dd9686c6a42b8033290e56e,Zaldy Pagaduan Jr,zaldypagaduanjr@gmail.com,Add PRC Exam Schedule to Government (#3102),1,1,0,f,2022-03-16 04:29:32,public-apis/public-apis,Python,371448
+120,4f3537cf4b3162df83eaebe00ce766b67fe8129e,FayeNichols,95420198+FayeNichols@users.noreply.github.com,Add Hirak OCR to Text Analysis (#3100),1,1,0,f,2022-03-16 04:16:11,public-apis/public-apis,Python,371448
+121,33dff391917e6a9cb45755dd05fda53aa9576f69,FayeNichols,95420198+FayeNichols@users.noreply.github.com,"Add ""Hirak IP to Country"" to Geocoding (#3098)",1,1,0,f,2022-03-16 03:59:38,public-apis/public-apis,Python,371448
+122,4167f2e7fc7052de6dfe6faa4d6935d051523a11,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove WeatherReactApi, it's broken
+
+WeatherReactApi returns http code 404 when accessed",1,0,1,f,2022-03-13 02:13:26,public-apis/public-apis,Python,371448
+123,df9eb2ed247ab2d7a985e97787fbc26a3e5e7987,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Utelly, it's broken
+
+Utelly returns http code 404 when accessed",1,0,1,f,2022-03-13 02:11:08,public-apis/public-apis,Python,371448
+124,93bf8cbb06553cc5857b70b0db95ebd44f3e3763,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Sentium, it's broken
+
+Sentium returns http code 503 when accessed",1,0,1,f,2022-03-13 02:08:16,public-apis/public-apis,Python,371448
+125,e40cebde8251ed9ebbc421994af5cc8555997096,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Tennis-data, it's broken
+
+Tennis-data returns http code 404 when accessed",1,0,1,f,2022-03-13 02:07:04,public-apis/public-apis,Python,371448
+126,67245295653a63ac7ed086a8d222de8b4498d9a3,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Daraz Data, it's broken
+
+Daraz Data returns http code 404 when accessed",1,0,1,f,2022-03-13 02:06:06,public-apis/public-apis,Python,371448
+127,8e848b9ff00b0e013e0c5b07cb3677c1c3c1e66c,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Reconmap, it's broken",1,0,1,f,2022-03-13 02:04:58,public-apis/public-apis,Python,371448
+128,1e587cf2eb35d481265a603fad7608865fb3499d,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Quadratic Solver, it's broken
+
+Quadratic Solver  returns http code 404 when accessed",1,0,1,f,2022-03-13 02:02:19,public-apis/public-apis,Python,371448
+129,a1840368b887be7bdbcdfec4ae4e752aa4d1289c,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove UK government API catalogue, it's broken
+
+UK government API catalogue returns http code 404 when accessed",1,0,1,f,2022-03-13 02:00:14,public-apis/public-apis,Python,371448
+130,a25ece6dd875a44600b5645c760b52e083c1f756,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove ""Open Government, Ukraine"", it's broken",1,0,1,f,2022-03-13 01:57:16,public-apis/public-apis,Python,371448
+131,9b91662991297928b2dba586f246b7420f78f15f,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove ""Open Government, Russia"", it's broken",1,0,1,f,2022-03-13 01:55:56,public-apis/public-apis,Python,371448
+132,8d891a5c37a90582fa85930134756cea74820cd2,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove ""City, Warsaw Open Data"", it's broken",1,0,1,f,2022-03-13 01:54:10,public-apis/public-apis,Python,371448
+133,4ec09fa89f189dae8fb1f9a9e8a02ca8b2a36831,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove ""City, Kyiv"", it's broken
+
+City, Kyiv returns http code 522 when accessed",1,0,1,f,2022-03-13 01:51:42,public-apis/public-apis,Python,371448
+134,353fbc18a02d9b8626b9677e8d5c8f48afcd4b24,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Brazil CNPJ, it's broken",1,0,1,f,2022-03-13 01:49:11,public-apis/public-apis,Python,371448
+135,63311099cfc3af1debd5a49acd7455443a331cc9,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove IP Sidekick, it's broken",1,0,1,f,2022-03-13 01:47:07,public-apis/public-apis,Python,371448
+136,b7b05c55f2b7a0bfcbfc8d142c2f3242313e8e53,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Live precious metal prices, it's broken
+
+Live precious metal prices returns http code 500 when accessed",1,0,1,f,2022-03-13 01:45:28,public-apis/public-apis,Python,371448
+137,30aa48ffc45155904a52bba241ce0ecb0267acbc,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Form2Channel, it's broken",1,0,1,f,2022-03-13 01:41:13,public-apis/public-apis,Python,371448
+138,f9a60a1da94a6e701215142cb96b1a6445b567c7,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove UnixTime Converter, it's broken
+
+UnixTime Converter returns http code 522 when accessed",1,0,1,f,2022-03-13 01:35:17,public-apis/public-apis,Python,371448
+139,8b30dafe013a614a03bc62103b3f5645a452df5c,Diego Parrilla,diego.parrilla.santamaria@gmail.com,Add Threat Jammer to Security (#3094),1,1,0,f,2022-03-13 01:18:48,public-apis/public-apis,Python,371448
+140,aa87c02f65809d7de7e23d3eaaa7e79abfa620c3,Matheus Felipe,matheusfelipeog@protonmail.com,Add Owen Wilson Wow to Video (#3092),1,1,0,t,2022-03-13 00:55:27,public-apis/public-apis,Python,371448
+141,17bc0e540b51f05ffdb14f3f7ab566ec170cd021,Arne,arnestittrich@gmail.com,Add MFaaS to Video (#3091),1,1,0,f,2022-03-13 00:42:41,public-apis/public-apis,Python,371448
+142,714c68b7983df9120556f6470b6a69aed60fb512,S.G. Sudhakar,sudhak76@gmail.com,Add WhatJobs to Jobs (#3090),1,1,0,f,2022-03-13 00:21:14,public-apis/public-apis,Python,371448
+143,aac6b00424df8fa35b9fce3a4c319e71a6062887,Buco,80671351+Bucolo@users.noreply.github.com,Update waifu.im: CORS from No to Yes (#3093),1,1,1,f,2022-03-12 04:50:07,public-apis/public-apis,Python,371448
+144,2240339d54066dcee1ea185833f7508f68789de5,Matheus Felipe,matheusfelipeog@protonmail.com,Add Warface to Games & Comics (#3087),1,1,0,t,2022-03-12 04:26:55,public-apis/public-apis,Python,371448
+145,6f133f4619b5a990c0cb32ac26a0d681783d9332,Yann Bertrand,5855339+yannbertrand@users.noreply.github.com,"Revert ""Update README.md""
+
+This reverts commit 18f105a843492833b12f3685e666926e323fea78.",1,3,3,f,2022-03-11 15:52:41,public-apis/public-apis,Python,371448
+146,68b4fb0f004100cdaa17442603952dba5780f3b3,Yann Bertrand,5855339+yannbertrand@users.noreply.github.com,"Revert ""Update README.md""
+
+This reverts commit 96e9033d4252739e96cbea94965c516973b3f768.",1,0,1,f,2022-03-11 15:52:36,public-apis/public-apis,Python,371448
+147,f94132fb6eb69d962559c7b3f0678950d2983b12,Yann Bertrand,5855339+yannbertrand@users.noreply.github.com,"Revert ""Update README.md""
+
+This reverts commit 8e5806cc9037cc58cce2b7c8ed207f521fdda73a.",1,1,1,f,2022-03-11 15:52:30,public-apis/public-apis,Python,371448
+148,80f311a0165993e38bf56f31d1540308c8362754,Yann Bertrand,5855339+yannbertrand@users.noreply.github.com,"Revert ""Add files via upload""
+
+This reverts commit 1f2645758dd9e1dee021d3bda345f621b818a30a.",1,0,0,f,2022-03-11 15:52:23,public-apis/public-apis,Python,371448
+149,18f105a843492833b12f3685e666926e323fea78,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,3,3,f,2022-03-11 12:50:20,public-apis/public-apis,Python,371448
+150,96e9033d4252739e96cbea94965c516973b3f768,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,1,0,f,2022-03-11 11:48:22,public-apis/public-apis,Python,371448
+151,8e5806cc9037cc58cce2b7c8ed207f521fdda73a,APILayer,75280960+apilayer-admin@users.noreply.github.com,Update README.md,1,1,1,f,2022-03-11 11:33:53,public-apis/public-apis,Python,371448
+152,1f2645758dd9e1dee021d3bda345f621b818a30a,APILayer,75280960+apilayer-admin@users.noreply.github.com,Add files via upload,1,0,0,f,2022-03-11 11:30:38,public-apis/public-apis,Python,371448
+153,51763b1d3f3725074c20dc2bc2a2121e0114e5b1,FayeNichols,95420198+FayeNichols@users.noreply.github.com,Add Hirak Translation to Text Analysis (#3075),1,1,0,f,2022-03-11 05:45:55,public-apis/public-apis,Python,371448
+154,d890c55292d84d4c533c1fc6ed55d203d6013bab,Matheus Felipe,matheusfelipeog@protonmail.com,Add National Park Service to Government (#3085),1,1,0,t,2022-03-10 05:46:18,public-apis/public-apis,Python,371448
+155,7a5ad4f50bdc92094a5c363680eae962814076ea,FayeNichols,95420198+FayeNichols@users.noreply.github.com,Add Hirak FaceAPI to Machine Learning (#3078),1,1,0,f,2022-03-10 05:31:21,public-apis/public-apis,Python,371448
+156,789eae1fdb1670a66be6277df101f8dbb13f0101,Avi Mamenko,49536715+amamenko@users.noreply.github.com,Add Owen Wilson Wow API to Video,1,1,0,f,2022-03-10 00:30:38,public-apis/public-apis,Python,371448
+157,4ffa8107ca3041fdde19003888e4054b54011df5,seanwlk,nicola_97@rocketmail.com,Add Warface to Games & Comics,1,1,0,f,2022-03-06 10:43:35,public-apis/public-apis,Python,371448
+158,ee006038eaa244e2af95f4b91a1fe4526f4854c7,Roanna Victorio,roannav@users.noreply.github.com,Add National Park Service API to Government,1,1,0,f,2022-03-06 06:18:58,public-apis/public-apis,Python,371448
+159,aa6a57cf4a9fc67df158c7f59a1dcec1c3ccf7fd,Agrim Prasad,AgrimPrasad@users.noreply.github.com,Add Lecto Translation to Text Analysis (#3072),1,1,0,f,2022-03-06 04:27:23,public-apis/public-apis,Python,371448
+160,ea02bd21c393f6225dcbbd22b8cd9efa5d7b45bd,FayeNichols,95420198+FayeNichols@users.noreply.github.com,Add Hirak Exchange Rates to Cryptocurrency (#3076),1,1,0,f,2022-03-05 23:13:05,public-apis/public-apis,Python,371448
+161,a739aa2f2e00b472ac59162d65e86b8a5511cbc3,Carol,55922985+cyborg48@users.noreply.github.com,Add Website Carbon to Environment (#3073),1,1,0,f,2022-03-05 22:41:42,public-apis/public-apis,Python,371448
+162,eb5c9d1c511057c08f8dec8ea7e60fb19f187adc,PerryPal,69980005+PerryPal21@users.noreply.github.com,Add Techy to Entertainment (#3066),1,1,0,f,2022-03-05 22:13:51,public-apis/public-apis,Python,371448
+163,85810b77c64fe6c4c087725b182dad5a787f048c,Exerra,exerra@exerra.xyz,Add NoPhishy to Anti-Malware (#3065),1,1,0,f,2022-03-04 23:18:38,public-apis/public-apis,Python,371448
+164,111114f674e5d453217de5688d76e73514f01a35,Matheus Felipe,matheusfelipeog@protonmail.com,"Add icy.tools to Cryptocurrency (#3062)
+
+resolve #3062",1,1,0,f,2022-03-04 22:48:59,public-apis/public-apis,Python,371448
+165,bec246956299b86ceedb4fc85083223193486228,mike,97462625+htimsekim@users.noreply.github.com,Fixed typo: Upcomimg -> Upcoming (#3082),1,1,1,f,2022-03-04 22:11:38,public-apis/public-apis,Python,371448
+166,962ab2691b192f1dc7f78be931d53d1bfa283386,Matheus Felipe,matheusfelipeog@protonmail.com,"Remove Indeed from Jobs (#3079)
+
+API is deprecated
+
+ref: https://developer.indeed.com/docs/publisher-jobs",1,0,1,t,2022-03-04 22:05:15,public-apis/public-apis,Python,371448
+167,fb4f67bce4caf709520014ca23213bb26be19516,Gregory Saint-Jean,gsaintj312@gmail.com,Indeed deprecated their traditional APIs. https://developer.indeed.com/docs/publisher-jobs/get-job,1,0,1,f,2022-03-02 21:20:29,public-apis/public-apis,Python,371448
+168,14742612ce924cc024a861bf07f9436b3688619c,Matheus Felipe,matheusfelipeog@protonmail.com,"Rename Rock, Paper, Scissors 101 to RPS 101",1,1,1,f,2022-03-02 05:09:05,public-apis/public-apis,Python,371448
+169,cbf9aab0d392ff2e16c85fb21ce1c635cd5aa6ed,Matheus Felipe,matheusfelipeog@protonmail.com,Add RPS 101 to Games & Comics (#3060),1,1,0,t,2022-03-02 05:06:32,public-apis/public-apis,Python,371448
+170,4abb18886b4dbde0e647de5174b9408753ee9090,Matheus Felipe,matheusfelipeog@protonmail.com,Add xeno-canto to Animals (#3059),1,1,0,t,2022-03-02 04:37:20,public-apis/public-apis,Python,371448
+171,e6025d0fab06d6ae5047cc46e6a8259770f806ad,Matheus Felipe,matheusfelipeog@protonmail.com,Rename Apiip.net IP Geolocation to Apiip,1,1,1,f,2022-03-02 04:09:23,public-apis/public-apis,Python,371448
+172,82e3b036f3dc7fa3d8912bc70c0f44321d5014e5,Matheus Felipe,matheusfelipeog@protonmail.com,Add Apiip to Geocoding (#3057),1,1,0,t,2022-03-02 04:06:34,public-apis/public-apis,Python,371448
