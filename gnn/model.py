@@ -61,23 +61,24 @@ class GraphSAGE(nn.Module):
         Args:
             x: Node feature matrix [num_nodes, in_channels]
             edge_index: Edge indices [2, num_edges]
-            edge_weight: Optional edge weights [num_edges]
+            edge_weight: Optional edge weights [num_edges] (not used by SAGEConv)
 
         Returns:
             logits: Output logits [num_nodes, 1]
         """
+        # Note: SAGEConv doesn't support edge weights, so we ignore edge_weight parameter
         # Layer 1: GraphSAGE + ReLU + Dropout
-        x = self.conv1(x, edge_index, edge_weight=edge_weight)
+        x = self.conv1(x, edge_index)
         x = F.relu(x)
         x = F.dropout(x, p=self.dropout, training=self.training)
 
         # Layer 2: GraphSAGE + ReLU + Dropout
-        x = self.conv2(x, edge_index, edge_weight=edge_weight)
+        x = self.conv2(x, edge_index)
         x = F.relu(x)
         x = F.dropout(x, p=self.dropout, training=self.training)
 
         # Layer 3: GraphSAGE + ReLU + Dropout
-        x = self.conv3(x, edge_index, edge_weight=edge_weight)
+        x = self.conv3(x, edge_index)
         x = F.relu(x)
         x = F.dropout(x, p=self.dropout, training=self.training)
 
@@ -116,7 +117,7 @@ class GraphSAGE(nn.Module):
         Args:
             x: Node feature matrix [num_nodes, in_channels]
             edge_index: Edge indices [2, num_edges]
-            edge_weight: Optional edge weights [num_edges]
+            edge_weight: Optional edge weights [num_edges] (not used by SAGEConv)
 
         Returns:
             embeddings: Node embeddings [num_nodes, hidden_channels[-1]]
@@ -124,15 +125,15 @@ class GraphSAGE(nn.Module):
         self.eval()
         with torch.no_grad():
             # Layer 1
-            x = self.conv1(x, edge_index, edge_weight=edge_weight)
+            x = self.conv1(x, edge_index)
             x = F.relu(x)
 
             # Layer 2
-            x = self.conv2(x, edge_index, edge_weight=edge_weight)
+            x = self.conv2(x, edge_index)
             x = F.relu(x)
 
             # Layer 3 (final embeddings)
-            x = self.conv3(x, edge_index, edge_weight=edge_weight)
+            x = self.conv3(x, edge_index)
 
         return x
 
