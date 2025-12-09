@@ -48,7 +48,7 @@ class Repository(Base):
     last_crawled_at = Column(DateTime, index=True)
     crawl_status = Column(String(50), default='pending', index=True)
     crawl_error = Column(Text)
-    metadata = Column(JSONB, default=dict)
+    extra_metadata = Column(JSONB, default=dict)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
@@ -143,7 +143,7 @@ class File(Base):
     complexity_score = Column(Float, index=True)
     is_test_file = Column(Boolean, default=False)
     is_deleted = Column(Boolean, default=False)
-    metadata = Column(JSONB, default=dict)
+    extra_metadata = Column(JSONB, default=dict)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
@@ -347,7 +347,7 @@ class Feedback(Base):
     ground_truth = Column(Boolean)
     response_time_seconds = Column(Integer)
     comment = Column(Text)
-    metadata = Column(JSONB, default=dict)
+    extra_metadata = Column(JSONB, default=dict)
     created_at = Column(DateTime, default=datetime.utcnow, index=True)
 
     # Relationships
@@ -394,7 +394,7 @@ class Feature(Base):
     computed_at = Column(DateTime, nullable=False, index=True)
     window_start = Column(DateTime)
     window_end = Column(DateTime)
-    metadata = Column(JSONB, default=dict)
+    extra_metadata = Column(JSONB, default=dict)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     def __repr__(self):
